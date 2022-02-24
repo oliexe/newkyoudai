@@ -20,18 +20,18 @@ const SliderStyle4 = () => {
                 <div className="themesflat-container " style={{zIndex: 2}} >
                         <div className="wrap-heading flat-slider flex">
                             <div className="content">
-                                <h2 className="heading mt-15">Classic gameplay
+                                <h2 className="heading mt-15">Games of the past
                                 </h2>	
                                 <h1 className="heading mb-style"><span className="tf-text s1">inside the metaverse</span>                                          
                                 </h1>
-                                <p className="sub-heading mt-19 mb-40">Bridging the classic game experiences with  <img style={{width:"120px"}} src="https://www.dexlab.space/img/solana_color.png"/>
+                                <p className="sub-heading mt-19 mb-40">Bridging the arcade game experience with  <img style={{width:"120px"}} src="https://www.dexlab.space/img/solana_color.png"/>
                                 </p>
-                                {/* <div className="flat-bt-slider flex style2">
-                                    <Link to="/explore-01" className="sc-button header-slider style style-1 rocket fl-button pri-1"><span>Explore
+                                 <div className="flat-bt-slider flex style2">
+                                    <Link to="/" className="sc-button style style-3 rocket fl-button pri-1"><span>Play
                                     </span></Link>
-                                    <Link to="/create-item" className="sc-button header-slider style style-1 note fl-button pri-1"><span>Create
+                                    <Link to="/" className="sc-button style style-3 note fl-button pri-1"><span>Buy on magiceden
                                     </span></Link>
-                                </div> */}
+                                </div> 
                             </div>
                            
                             <Swiper

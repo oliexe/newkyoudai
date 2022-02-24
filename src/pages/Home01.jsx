@@ -52,7 +52,7 @@ const Home01 = () => {
             {
                 done: false,
                 img: img6,
-                title: 'Inviting builders in',
+                title: 'Kyoudai API',
                 description: 'Releasing out Javascript game boilerplate and API for other developers, enabling everybody to develop other games that can be connected to the Kyouverse.'
             },
             {
@@ -76,29 +76,24 @@ const Home01 = () => {
             {
                 key: "0",
                 show: "show",
-                title: 'What is an NFT?',
-                text: 'NFTs or non-fungible tokens, are cryptographic assets on blockchain with unique identification codes and metadata that distinguish them from each other. NFTs are unique and not mutually interchangeable, which means no two NFTs are the same.'
+                title: 'Why should I own Kyoudai NFT ?',
+                text: 'Owners of one of the 888 genesis NFT gets royalities from all the game tournaments inside the Kyouverse. Every game credit is 0.09 SOL (30% goes to “House Wallet” / 70% to “Bank”) “Bank” is split to the best players and “House wallet” is then divided to the NFT holders. You can always buy Kyoudai NFT second-hand on Magiceden marketplace.'
             },
             {
                 key: "1",
-                title: 'Customer support is available ?',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.'
+                title: 'Do you have any working product ?',
+                text: 'Of course, we have deployed our first game even before the NFT mint - The Solatris. You can join the tournament and compete in the leaderboards or train the game for free anytime you want. Every game can be played separately and later will be implemened directly into the Kyouverse.'
             },
             {
                 key: "2",
-                title: 'How do I find my transaction hash?',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.'
+                title: 'What is the Kyouverse ?',
+                text: 'Kyouverse is an upcoming metaverse arcade with rich 2D fantasy world and basic RPG elements inspired by classic JRPG titles. Every character in the Kyouverse will be one of 3550 handcrafted NFT. You can use your NFT to join the Kyouverse, chat with other players and develop your character by playing the games and take part of events and community quests.'
             },
             {
                 key: "3",
-                title: 'What are gas fees on Axies?',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.'
-            },
-            {
-                key: "4",
-                title: 'What is the effective staking amount?',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.'
-            },
+                title: 'Will there be more games in the future ?',
+                text: 'Many more classic games will be developed and added to Kyouverse in the future by our team. We will also be open-sourcing our Javascript game API and inviting third party developers to deploy their own games for Kyouverse. We will support Phaser game engine as the preffered base for each game.'
+            }
         ]
     )
     return (
@@ -112,10 +107,10 @@ const Home01 = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <h2 className="tf-title-heading ct style-2 fs-30 mg-bt-10">
-                                Frequently Asked Questions
+                                Beloved arcade classics in the era of Web3.
                             </h2>
                             <h5 className="sub-title help-center mg-bt-32 ">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
+                                Play tournaments in classic videogame titles to win SOL from the prize pool, train games for free, chat with friends or even develop and deploy games in <b>Kyouverse</b> - an upcoming online 2D sandbox with RPG elements.
                             </h5>
                         </div>
                         <div className="col-md-12">
@@ -143,11 +138,8 @@ const Home01 = () => {
                     <div className="row">
                         <div className="col-12">
                             <h2 className="tf-title-heading ct style-2 mg-bt-12">
-                                Roadmap
+                                Development roadmap
                             </h2>
-                            <h5 className="sub-title ct style-1 pad-400">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.
-                            </h5>
                         </div>
                         <div className="col-md-12">
                             <div className="sc-box-icon-inner style-2">
@@ -173,7 +165,7 @@ const Home01 = () => {
                 </div>
             </div>
 
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

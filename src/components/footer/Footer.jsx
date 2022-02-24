@@ -119,10 +119,11 @@ const Footer = () => {
                             <div className="widget widget-logo">
                                 <div className="logo-footer" id="logo-footer">
                                     <Link to="/">
-                                        <img className='logo-dark' id="logo_footer" src={logodark} alt="nft-gaming" />
-                                        <img className='logo-light' id="logo_footer" src={logofooter} alt="nft-gaming" />
+                                        <img className='logo-dark' id="logo_footer" src={"https://media.discordapp.net/attachments/941089458399359027/946168086095073340/Kyoudai_Logo.png"} alt="nft-gaming" />
+                                        <img className='logo-light' id="logo_footer" src={"https://media.discordapp.net/attachments/941089458399359027/946168086095073340/Kyoudai_Logo.png"} alt="nft-gaming" />
                                         
                                     </Link>
+                                    <img src="https://ml.globenewswire.com/Resource/Download/3a54c241-a668-4c94-9747-3d3da9da3bf2"/>
                                 </div>
                                 <p className="sub-widget-logo">Lorem ipsum dolor sit amet,consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
                             </div>
